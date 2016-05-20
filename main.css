@@ -1,0 +1,150 @@
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0; }
+
+.main-col {
+  position: absolute;
+  left: 24%;
+  height: 96%;
+  width: 52%;
+  background-color: rgba(173, 216, 230, 0.75); }
+
+.social {
+  display: inline-block;
+  width: 100%;
+  height: 3%;
+  background-color: rgba(255, 0, 0, 0.68); }
+
+.header-nav {
+  display: inline-block;
+  width: 100%;
+  height: 3%;
+  background-color: yellow; }
+
+.photo-header {
+  display: inline-block;
+  width: 100%;
+  height: 19%;
+  background-color: purple; }
+
+.news {
+  display: inline-block;
+  width: 100%;
+  height: 18%;
+  background-color: green; }
+  .news .articles {
+    display: inline-block;
+    margin: 0 auto;
+    width: 32%;
+    height: 89%;
+    background-color: white;
+    margin-right: .5%;
+    margin-top: 1%; }
+
+.skateboarders {
+  display: inline-block;
+  width: 100%;
+  height: 24%;
+  background-color: orange; }
+
+.photo-top {
+  display: inline-block;
+  width: 65%;
+  height: 43%;
+  margin-top: 15px;
+  margin-left: 8px;
+  padding-bottom: 23px; }
+  .photo-top #left {
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+    overflow: hidden;
+    border: 7px white solid;
+    background-color: yellow; }
+    .photo-top #left img {
+      position: relative;
+      right: 38%;
+      bottom: 4%; }
+
+#left h3 {
+  position: absolute;
+  z-index: 2;
+  color: white; }
+
+#right {
+  display: inline-block;
+  width: 47%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  border: 7px white solid;
+  background-color: green; }
+  #right img {
+    position: relative; }
+
+#right h3 {
+  position: absolute;
+  z-index: 2;
+  color: white; }
+
+.photo-right {
+  display: inline-block;
+  background-color: blue;
+  width: 31%;
+  height: 92%;
+  margin-top: 16px;
+  margin-right: 11px;
+  float: right;
+  border: 7px white solid;
+  overflow: hidden; }
+  .photo-right img {
+    position: relative;
+    height: 100%;
+    right: 124%; }
+
+.photo-right h3 {
+  position: absolute;
+  z-index: 2;
+  color: white; }
+
+.photo-bottom {
+  display: inline-block;
+  width: 64%;
+  height: 45%;
+  overflow: hidden;
+  background-color: lightblue;
+  margin-left: 8px;
+  border: 7px white solid; }
+  .photo-bottom img {
+    position: relative;
+    bottom: 103px; }
+
+.photo-bottom h3 {
+  position: absolute;
+  z-index: 2;
+  color: white; }
+
+.decks {
+  display: inline-block;
+  width: 99%;
+  height: 14%;
+  background-color: white;
+  padding: 0%;
+  margin-bottom: 2%; }
+  .decks ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+    padding-left: 4%;
+    margin-right: -6%; }
+    .decks ul li {
+      display: inline-block;
+      width: 9%;
+      height: 90%; }
+
+.contact-info {
+  display: inline-block;
+  width: 100%;
+  height: 17%;
+  background-color: navy; }
