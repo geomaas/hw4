@@ -7,26 +7,68 @@ body {
   position: absolute;
   left: 24%;
   height: 96%;
-  width: 52%;
-  background-color: rgba(173, 216, 230, 0.75); }
+  width: 52%; }
 
 .social {
   display: inline-block;
   width: 100%;
-  height: 3%;
-  background-color: rgba(255, 0, 0, 0.68); }
+  height: 3%; }
+
+.buttons {
+  width: 27%;
+  height: 100%;
+  float: right; }
+  .buttons a {
+    width: 22%;
+    height: 100%; }
+
+.buttons a img {
+  width: 22%;
+  height: 100%;
+  background-color: white; }
 
 .header-nav {
   display: inline-block;
   width: 100%;
   height: 3%;
   background-color: yellow; }
+  .header-nav .menu {
+    display: inline-block;
+    width: 23%;
+    height: 63%;
+    background-color: red;
+    margin-left: 14px;
+    margin-top: 11px;
+    box-shadow: 3px; }
+
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif; }
+
+.menu a h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 5%;
+  color: white; }
 
 .photo-header {
   display: inline-block;
   width: 100%;
   height: 19%;
   background-color: purple; }
+
+.logo {
+  position: absolute; }
+
+.grid {
+  width: 100%;
+  height: 90%;
+  overflow: hidden; }
+
+.background {
+  width: 100%;
+  overflow: hidden; }
 
 .news {
   display: inline-block;
@@ -142,6 +184,9 @@ body {
       display: inline-block;
       width: 9%;
       height: 90%; }
+
+.decks ul li img:hover {
+  transform: rotatez(10deg); }
 
 .contact-info {
   display: inline-block;
